@@ -1,0 +1,293 @@
+{
+  "project_info": {
+    "name": "bobs burgersah",
+    "description": "hasts",
+    "company": "asdfasdf",
+    "facility": "asdfasdf",
+    "machine_id": "asdfasdf",
+    "lifecycle_stage": "asdfasdf"
+  },
+  "hazard_data": [
+    {
+      "user": "New User",
+      "tasks": [
+        {
+          "task": "New Task",
+          "hazards": [
+            "Manual Handling - Lifting, carrying, pushing, pulling",
+            "Storage Hazards - Stacking, racking, falling materials",
+            "Packaging - Sharp edges, heavy packages, unstable loads"
+          ]
+        },
+        {
+          "task": "asdf",
+          "hazards": [
+            "High Pressure - Hydraulic systems, pneumatic systems, pressure vessels",
+            "Fluid Injection - High pressure fluids, hydraulic systems",
+            "Trips - Uneven surfaces, cables, tools, debris",
+            "Falls from Height - Ladders, platforms, elevated work areas"
+          ]
+        }
+      ]
+    }
+  ],
+  "risk_assessment_data": [
+    {
+      "col_0": "1",
+      "col_1": "New User",
+      "col_2": "New Task",
+      "col_3": "Material Handling",
+      "col_4": "Manual Handling",
+      "col_5": "Lifting, carrying, pushing, pulling",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "2",
+      "col_1": "New User",
+      "col_2": "New Task",
+      "col_3": "Material Handling",
+      "col_4": "Storage Hazards",
+      "col_5": "Stacking, racking, falling materials",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "3",
+      "col_1": "New User",
+      "col_2": "New Task",
+      "col_3": "Material Handling",
+      "col_4": "Packaging",
+      "col_5": "Sharp edges, heavy packages, unstable loads",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "3 Guard against hazard, 3.3 Adjustable guards, 3.5 Safety devices (light curtains, pressure mats), 6.3 Hearing protection, 6.6 Body protection (safety vests, coveralls)",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "4",
+      "col_1": "New User",
+      "col_2": "asdf",
+      "col_3": "Fluid/Pressure",
+      "col_4": "High Pressure",
+      "col_5": "Hydraulic systems, pneumatic systems, pressure vessels",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "5",
+      "col_1": "New User",
+      "col_2": "asdf",
+      "col_3": "Fluid/Pressure",
+      "col_4": "Fluid Injection",
+      "col_5": "High pressure fluids, hydraulic systems",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "6",
+      "col_1": "New User",
+      "col_2": "asdf",
+      "col_3": "Slips/Trips/Falls",
+      "col_4": "Trips",
+      "col_5": "Uneven surfaces, cables, tools, debris",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "7",
+      "col_1": "New User",
+      "col_2": "asdf",
+      "col_3": "Slips/Trips/Falls",
+      "col_4": "Falls from Height",
+      "col_5": "Ladders, platforms, elevated work areas",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    }
+  ],
+  "control_system_data": [
+    {
+      "col_0": "Control for Manual Handling",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Pressure Sensitive Mat",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Storage Hazards",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 3",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Packaging",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for High Pressure",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 3",
+      "col_6": "Emergency Stop",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Fluid Injection",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Trips",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Light Curtain",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Falls from Height",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 2",
+      "col_6": "Two-Hand Control",
+      "col_7": ""
+    }
+  ],
+  "alternative_method_data": [
+    {
+      "col_0": "New Task",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for New Task due to Manual Handling. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "asdf",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "asdf"
+    },
+    {
+      "col_0": "New Task",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for New Task due to Storage Hazards. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "asdf",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "asdfasdf"
+    },
+    {
+      "col_0": "New Task",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for New Task due to Packaging. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "asdf",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "sdfa"
+    },
+    {
+      "col_0": "asdf",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for asdf due to High Pressure. Alternative method provides equivalent protection.",
+      "col_4": "fasdf",
+      "col_5": "fasdf",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "asdf"
+    },
+    {
+      "col_0": "asdf",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for asdf due to Fluid Injection. Alternative method provides equivalent protection.",
+      "col_4": "asd",
+      "col_5": "asdf",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "asdf"
+    },
+    {
+      "col_0": "asdf",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for asdf due to Trips. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "asdfasd",
+      "col_6": "asdf",
+      "col_7": "asdf",
+      "col_8": "asdf"
+    },
+    {
+      "col_0": "asdf",
+      "col_1": "New User - New Task - Manual Handling - Lifting, carrying, pushing, pulling",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for asdf due to Falls from Height. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdf",
+      "col_5": "asdf",
+      "col_6": "sadf",
+      "col_7": "asdf",
+      "col_8": "asdf"
+    }
+  ],
+  "risk_reduction_text": ""
+}
