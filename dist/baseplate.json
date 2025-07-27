@@ -1,0 +1,441 @@
+{
+  "project_info": {
+    "name": "baseplate punch",
+    "description": "method for baseplate punch\n",
+    "company": "vulcraft",
+    "facility": "leduc",
+    "machine_id": "baseplate",
+    "lifecycle_stage": "production"
+  },
+  "hazard_data": [
+    {
+      "user": "baseplate punch operator",
+      "tasks": [
+        {
+          "task": "punch holes",
+          "hazards": [
+            "Crushing - Moving parts, heavy equipment, presses",
+            "Pinch Point - Between moving and stationary parts",
+            "Break Up During Operation - Flying debris, component failure",
+            "Repetitive Motion - Assembly work, typing, tool operation",
+            "Heavy Lifting - Manual material handling, equipment moving"
+          ]
+        },
+        {
+          "task": "tool change",
+          "hazards": [
+            "Crushing - Moving parts, heavy equipment, presses",
+            "Pinch Point - Between moving and stationary parts",
+            "Break Up During Operation - Flying debris, component failure",
+            "Manual Handling - Lifting, carrying, pushing, pulling",
+            "Fluid Injection - High pressure fluids, hydraulic systems",
+            "Fluid Leaks - Hydraulic oil, coolant, process fluids"
+          ]
+        }
+      ]
+    }
+  ],
+  "risk_assessment_data": [
+    {
+      "col_0": "1",
+      "col_1": "baseplate punch operator",
+      "col_2": "punch holes",
+      "col_3": "Mechanical",
+      "col_4": "Crushing",
+      "col_5": "Moving parts, heavy equipment, presses",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "2",
+      "col_1": "baseplate punch operator",
+      "col_2": "punch holes",
+      "col_3": "Mechanical",
+      "col_4": "Pinch Point",
+      "col_5": "Between moving and stationary parts",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Minor",
+      "col_11": "Very Likely",
+      "col_12": "Medium"
+    },
+    {
+      "col_0": "3",
+      "col_1": "baseplate punch operator",
+      "col_2": "punch holes",
+      "col_3": "Other",
+      "col_4": "Break Up During Operation",
+      "col_5": "Flying debris, component failure",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "4",
+      "col_1": "baseplate punch operator",
+      "col_2": "punch holes",
+      "col_3": "Ergonomics/Human Factors",
+      "col_4": "Repetitive Motion",
+      "col_5": "Assembly work, typing, tool operation",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Remote",
+      "col_12": "Medium"
+    },
+    {
+      "col_0": "5",
+      "col_1": "baseplate punch operator",
+      "col_2": "punch holes",
+      "col_3": "Ergonomics/Human Factors",
+      "col_4": "Heavy Lifting",
+      "col_5": "Manual material handling, equipment moving",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Minor",
+      "col_11": "Very Likely",
+      "col_12": "Medium"
+    },
+    {
+      "col_0": "6",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Mechanical",
+      "col_4": "Crushing",
+      "col_5": "Moving parts, heavy equipment, presses",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "7",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Mechanical",
+      "col_4": "Pinch Point",
+      "col_5": "Between moving and stationary parts",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Moderate",
+      "col_11": "Remote",
+      "col_12": "Low"
+    },
+    {
+      "col_0": "8",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Other",
+      "col_4": "Break Up During Operation",
+      "col_5": "Flying debris, component failure",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "9",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Material Handling",
+      "col_4": "Manual Handling",
+      "col_5": "Lifting, carrying, pushing, pulling",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "10",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Fluid/Pressure",
+      "col_4": "Fluid Injection",
+      "col_5": "High pressure fluids, hydraulic systems",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    },
+    {
+      "col_0": "11",
+      "col_1": "baseplate punch operator",
+      "col_2": "tool change",
+      "col_3": "Fluid/Pressure",
+      "col_4": "Fluid Leaks",
+      "col_5": "Hydraulic oil, coolant, process fluids",
+      "col_6": "Catastrophic",
+      "col_7": "Very Likely",
+      "col_8": "High",
+      "col_9": "",
+      "col_10": "Catastrophic",
+      "col_11": "Very Likely",
+      "col_12": "High"
+    }
+  ],
+  "control_system_data": [
+    {
+      "col_0": "Control for Crushing",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": "asdf"
+    },
+    {
+      "col_0": "Control for Pinch Point",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "Medium",
+      "col_4": "Category 3",
+      "col_5": "Category 3",
+      "col_6": "Interlock",
+      "col_7": "asdf"
+    },
+    {
+      "col_0": "Control for Break Up During Operation",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Repetitive Motion",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "Medium",
+      "col_4": "Category 3",
+      "col_5": "Category 3",
+      "col_6": "Interlock",
+      "col_7": "asd"
+    },
+    {
+      "col_0": "Control for Heavy Lifting",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "Medium",
+      "col_4": "Category 3",
+      "col_5": "Category 3",
+      "col_6": "Interlock",
+      "col_7": "asdf"
+    },
+    {
+      "col_0": "Control for Crushing",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Pinch Point",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "Low",
+      "col_4": "Category 1",
+      "col_5": "Category 1",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Break Up During Operation",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Manual Handling",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": "asdfg"
+    },
+    {
+      "col_0": "Control for Fluid Injection",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    },
+    {
+      "col_0": "Control for Fluid Leaks",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "High",
+      "col_3": "High",
+      "col_4": "Category 4",
+      "col_5": "Category 4",
+      "col_6": "Interlock",
+      "col_7": ""
+    }
+  ],
+  "alternative_method_data": [
+    {
+      "col_0": "punch holes",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for punch holes due to Crushing. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfg",
+      "col_5": "asdgfasdg",
+      "col_6": "5YA 54YA E45Y",
+      "col_7": "AE5Y AE5Y ",
+      "col_8": "A5Y "
+    },
+    {
+      "col_0": "punch holes",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for punch holes due to Pinch Point. Alternative method provides equivalent protection.",
+      "col_4": "asdgfasdg",
+      "col_5": "asdfasdfasdf",
+      "col_6": "AY5 A43EY A",
+      "col_7": "AEY5 AE5Y ",
+      "col_8": "5Y AE"
+    },
+    {
+      "col_0": "punch holes",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for punch holes due to Break Up During Operation. Alternative method provides equivalent protection.",
+      "col_4": "fasd as",
+      "col_5": "asdfg ",
+      "col_6": "Y7 A",
+      "col_7": "AE5 AE5Y A5Y E",
+      "col_8": "AE5Y AE"
+    },
+    {
+      "col_0": "punch holes",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for punch holes due to Repetitive Motion. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": "asdg ",
+      "col_6": " AE54Y AE45Y A",
+      "col_7": "AEY5 AE5Y ",
+      "col_8": "5Y AE5Y"
+    },
+    {
+      "col_0": "punch holes",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for punch holes due to Heavy Lifting. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": "awet ",
+      "col_6": "U8AZ45EY7U AZQ4E",
+      "col_7": "Y AE5Y ",
+      "col_8": " YAE"
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Crushing. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "4t qa34wt",
+      "col_6": "5Y A5E4Y AE45Y",
+      "col_7": "AE45Y AE5",
+      "col_8": " AE5 YAE5"
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Pinch Point. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": " a43w",
+      "col_6": "87U A4ZE567",
+      "col_7": "45EY A54EY ",
+      "col_8": "AE5 Y"
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Break Up During Operation. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": "qaw4t qaw3",
+      "col_6": "7 4QA",
+      "col_7": "Y5 A4E5Y A",
+      "col_8": "Y5 AE5Y "
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Manual Handling. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": "tr qa34",
+      "col_6": "7 4",
+      "col_7": "54Y A54EY A",
+      "col_8": "AE5Y "
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Fluid Injection. Alternative method provides equivalent protection.",
+      "col_4": "asdf",
+      "col_5": "t qa34t a34",
+      "col_6": "TY QA3",
+      "col_7": "5Y A",
+      "col_8": "AE5 Y"
+    },
+    {
+      "col_0": "tool change",
+      "col_1": "baseplate punch operator - punch holes - Crushing - Moving parts, heavy equipment, presses",
+      "col_2": "Yes",
+      "col_3": "LOTO not feasible for tool change due to Fluid Leaks. Alternative method provides equivalent protection.",
+      "col_4": "asdfasdfwaqytgqa asdf awsef aw34",
+      "col_5": "T QA34T 3",
+      "col_6": "QA46",
+      "col_7": " A4E5Y A4E5Y A",
+      "col_8": "AE5Y "
+    }
+  ],
+  "risk_reduction_text": ""
+}
